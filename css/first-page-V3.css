@@ -504,7 +504,16 @@ padding-top: 130px;
 margin-bottom: 10px;
 padding-left:0 ;
 align-self: center;
-text-align: center;
+text-align: left;
+width: fit-content;
+min-width: 240px;
+background-color: rgba(0,0,0,0.1);
+}
+.map_container{
+    margin-right: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
 }
 .btn-group{
 flex-direction: column;
@@ -513,4 +522,6 @@ gap: 30px;
 .hero h3{
 font-size: 20px;
 }
+
+
 }
